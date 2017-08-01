@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EFEF0011F300AB9008AC99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEF0001F300AB9008AC99E /* AppDelegate.swift */; };
+		1EFEF0031F300AB9008AC99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEF0021F300AB9008AC99E /* ViewController.swift */; };
+		1EFEF0061F300AB9008AC99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFEF0041F300AB9008AC99E /* Main.storyboard */; };
+		1EFEF0081F300AB9008AC99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFEF0071F300AB9008AC99E /* Assets.xcassets */; };
+		1EFEF00B1F300AB9008AC99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFEF0091F300AB9008AC99E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EFEEFFD1F300AB9008AC99E /* Beardo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beardo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFEF0001F300AB9008AC99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EFEF0021F300AB9008AC99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EFEF0051F300AB9008AC99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EFEF0071F300AB9008AC99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EFEF00A1F300AB9008AC99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EFEF00C1F300AB9008AC99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EFEEFFA1F300AB9008AC99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFEEFF41F300AB9008AC99E = {
+			isa = PBXGroup;
+			children = (
+				1EFEEFFF1F300AB9008AC99E /* Beardo */,
+				1EFEEFFE1F300AB9008AC99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EFEEFFE1F300AB9008AC99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EFEEFFD1F300AB9008AC99E /* Beardo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EFEEFFF1F300AB9008AC99E /* Beardo */ = {
+			isa = PBXGroup;
+			children = (
+				1EFEF0001F300AB9008AC99E /* AppDelegate.swift */,
+				1EFEF0021F300AB9008AC99E /* ViewController.swift */,
+				1EFEF0041F300AB9008AC99E /* Main.storyboard */,
+				1EFEF0071F300AB9008AC99E /* Assets.xcassets */,
+				1EFEF0091F300AB9008AC99E /* LaunchScreen.storyboard */,
+				1EFEF00C1F300AB9008AC99E /* Info.plist */,
+			);
+			path = Beardo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EFEEFFC1F300AB9008AC99E /* Beardo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFEF00F1F300AB9008AC99E /* Build configuration list for PBXNativeTarget "Beardo" */;
+			buildPhases = (
+				1EFEEFF91F300AB9008AC99E /* Sources */,
+				1EFEEFFA1F300AB9008AC99E /* Frameworks */,
+				1EFEEFFB1F300AB9008AC99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beardo;
+			productName = Beardo;
+			productReference = 1EFEEFFD1F300AB9008AC99E /* Beardo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EFEEFF51F300AB9008AC99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chris Thomas";
+				TargetAttributes = {
+					1EFEEFFC1F300AB9008AC99E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1EFEEFF81F300AB9008AC99E /* Build configuration list for PBXProject "Beardo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EFEEFF41F300AB9008AC99E;
+			productRefGroup = 1EFEEFFE1F300AB9008AC99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFEEFFC1F300AB9008AC99E /* Beardo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EFEEFFB1F300AB9008AC99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFEF00B1F300AB9008AC99E /* LaunchScreen.storyboard in Resources */,
+				1EFEF0081F300AB9008AC99E /* Assets.xcassets in Resources */,
+				1EFEF0061F300AB9008AC99E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EFEEFF91F300AB9008AC99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFEF0031F300AB9008AC99E /* ViewController.swift in Sources */,
+				1EFEF0011F300AB9008AC99E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EFEF0041F300AB9008AC99E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFEF0051F300AB9008AC99E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFEF0091F300AB9008AC99E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFEF00A1F300AB9008AC99E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EFEF00D1F300AB9008AC99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EFEF00E1F300AB9008AC99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFEF0101F300AB9008AC99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Beardo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.digitalspread.Beardo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EFEF0111F300AB9008AC99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Beardo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.digitalspread.Beardo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFEEFF81F300AB9008AC99E /* Build configuration list for PBXProject "Beardo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFEF00D1F300AB9008AC99E /* Debug */,
+				1EFEF00E1F300AB9008AC99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFEF00F1F300AB9008AC99E /* Build configuration list for PBXNativeTarget "Beardo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFEF0101F300AB9008AC99E /* Debug */,
+				1EFEF0111F300AB9008AC99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EFEEFF51F300AB9008AC99E /* Project object */;
+}
